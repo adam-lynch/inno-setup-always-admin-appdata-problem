@@ -22,10 +22,10 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={userappdata}{\}{#MyAppName}
 ;DisableDirPage=yes ;temporarily showing this for debugging
 DefaultGroupName={#MyAppName}
-OutputDir=E:\chat-client\dist
+OutputDir=C:\a\dist
 OutputBaseFilename={#MyAppName}_for_Windows32_Installer-{#MyAppVersion}
-SetupIconFile=E:\chat-client\icons\teamwork_chat.ico
-WizardImageFile=E:\chat-client\icons\chatWizardImageFile.bmp
+SetupIconFile=C:\a\icons\teamwork_chat.ico
+WizardImageFile=C:\a\icons\chatWizardImageFile.bmp
 Compression=lzma
 SolidCompression=yes
 PrivilegesRequired=lowest
@@ -37,12 +37,12 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "E:\chat-client\dist\TeamworkChat\win32\TeamworkChat.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\chat-client\dist\TeamworkChat\win32\ffmpegsumo.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\chat-client\dist\TeamworkChat\win32\icudtl.dat"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\chat-client\dist\TeamworkChat\win32\libEGL.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\chat-client\dist\TeamworkChat\win32\libGLESv2.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\chat-client\dist\TeamworkChat\win32\nw.pak"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\a\dist\TeamworkChat\win32\TeamworkChat.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\a\dist\TeamworkChat\win32\ffmpegsumo.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\a\dist\TeamworkChat\win32\icudtl.dat"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\a\dist\TeamworkChat\win32\libEGL.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\a\dist\TeamworkChat\win32\libGLESv2.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\a\dist\TeamworkChat\win32\nw.pak"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
